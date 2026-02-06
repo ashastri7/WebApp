@@ -32,7 +32,7 @@ def files():
 
 @app.route("/about")
 def about():
-    return rendertemplate("about.html")
+    return render_template("about.html")
 
 
 if __name__ == '__main__':
